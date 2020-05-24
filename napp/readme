@@ -1,0 +1,8 @@
+Assignment-1
+Build a Presence service, similar to that of google docs, which shows people that are
+currently viewing a particular doc.
+
+1) project Name : napp  => n(navigus)app
+2) Database Name : nappdb
+3) login.php =>index.php
+4) http://localhost/napp
