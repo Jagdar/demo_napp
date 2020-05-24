@@ -2,7 +2,16 @@ Assignment-1
 Build a Presence service, similar to that of google docs, which shows people that are
 currently viewing a particular doc.
 
-1) project Name : napp  => n(navigus)app
-2) Database Name : nappdb
-3) login.php =>index.php
-4) http://localhost/napp
+1) project Name : napp  => n(navigus)app:
+ This is basically a Registration sites where you can Login with the help of Username and Password .If Username and Password is true then open your Account and show the avatar.....
+
+
+
+2) Database Name : Here database name is demo and the table name is nappdb where all the data  is  insert at their specific position.such as username and password and confirm password .... 
+
+
+
+3) Index.php : Here in this page user can access their own account and see all the their name with avatar....
+
+
+4) http://localhost/napp :This is basically a url to navigate application in local environment ...
