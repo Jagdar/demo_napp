@@ -1,0 +1,31 @@
+#mymenu{
+    background-color: gray;
+    color: white;
+    text-align: right;
+}
+#mymenu ul li{
+    display: inline-block;
+    padding: 12px;
+   
+}
+#mybody{
+    font-family: cursive;
+    color: rgb(255, 176, 102);
+    background-color: aqua; 
+}
+/* first{
+    height: 100px;
+    background-color: rgb(195, 245, 80);
+    align-items: center;
+    
+} */
+a:visited
+{
+    color: aliceblue;
+}
+table{
+    width: 1000px;
+    box-shadow: 10px 10px 10px rgb(95, 88, 88);
+    color: blue;
+    align-items: center;
+}

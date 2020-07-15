@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href='{% static "mystyle.css" %}'>
+    </head>
+    <body id = "mybody" style="background-color:rgb(245, 208, 208)">
+        <div id = 'mymenu'>
+            
+            <ul>
+                <li> <a href={% url 'home' %}>Home</a> </li>
+                <li> <a href={% url 'cprog' %}> C prog </a></li>
+                <li> <a href={% url 'java' %}>JAVA </a></li>
+                <li> <a href={% url 'python' %}>Python </a></li>
+                
+               <li> About </li>
+               
+               
+               
+                
+
+            </ul>
+        </div>
+        <div id = "first">
+            <h1 style="color: gray;"><u>Python programming questions and answers</u></h1>
+            {% for i in da %}
+            {% if i.lang == 'p' %}
+                <table cellpadding='12'>
+                <tr>
+                    <td>{{i.question}}</td>
+                </tr>
+                <tr>
+                    <td>{{i.ans}}</td>                  
+                </tr>
+                </table>
+                {% endif %}
+                {% endfor %}
+            
+        </div>
+       
+    </body>
+</html>

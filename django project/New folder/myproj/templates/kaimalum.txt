@@ -1,0 +1,112 @@
+VARIABLES: VAR, LET & CONST//
+ Basics of creating variables.
+var learning = 'JavaScript';
+console.log(learning);
+// A variable can contain: letters, numbers, or underscores
+// it cannot start with a number
+var 99days;
+var agent007;
+var _products;
+var 01products;
+// send the values to the console.
+console.log()
+// variables with more than 1 name
+var firstName = 'Aditya';
+ // CamelCase
+var first_name = ' Aditya ';
+ //underscore
+var FirstName = ' Aditya ';
+ // pascal case
+var firstname = ' Juan Pablo ';
+// var, let  const/
+/ VAR
+var learning = 'JavaScript';
+var age = 20;
+var job = true;
+learning = 'Aditya';
+// Initialize the variablevar learning;
+learning = 'JavaScript';
+// Initialize 2 variables
+var learning, name;
+learning = 'JavaScript';
+name = 'Aditya';
+console.log(learning);
+console.log(name);
+// One of the main problems in javascript is that// you can re declare the variable
+var learning = ' JS';
+var learning = 'JavaScript';
+// Just to make a test, this is fixed in let
+let learning = ' JS';
+let learning = 'JavaScript';
+// Let in variables
+let name = 'Aditya';
+name = 'Aadi';
+console.log(name);
+// Initialize the variable
+let learning;
+learning = 'Learning JS in WorldPay';
+console.log(learning);
+// Multiple variables
+let product1 = 'Book world #1',
+    product2 = 'Book world #1';
+console.log(product1);
+console.log(product2);
+
+// Array in variable
+let shoppingCart = ['Product 1', 'Product 2', 'Product 3'];
+console.log(shoppingCart);
+// CONST VARIABLES
+// Const should have an starting value and i cannot be changed.
+const name;
+const name = 'Aditya';
+console.log(name);
+// You cannot re-assign the value
+name = 'Singh';
+console.log(name);
+// The values from an object can be re assigned.
+const car = {    name: 'Isuzu',    motor: 6.5}
+console.log(car);
+car.name = 'Fortuner';
+console.log(car);
+// Same with arrays
+const numbers = [1,2,3,4,5];
+console.log(numbers);
+numbers[3] = 3;
+console.log(numbers);
+numbers.push(6);
+console.log(numbers);
+// But you cannot re assign the whole array
+numbers = [1,2,3];
+#String
+let name;
+// Quotes.name = 'Nikhil';
+name = "Prabhu";
+name = 'Pablo";
+name = 'Then i said: hey what's up? ';
+name = 'Then i said: hey what\'s up? '; 
+// Backslashconsole.log(name);
+// Concatenate a String
+let learning = 'Aditya' + 'Singh';
+console.log(learning);
+// Concatenate 2 variables.
+let learning = 'Aditya',
+    tech = 'Singh';
+console.log(learning + ' ' + tech);
+// Concatenate variables with Strings
+let band = "Metallica";
+let song = "Enter Sandman";
+let playing;
+playing = 'Playing ' + song + ' by ' + band;
+// Concatenate
+name = band + ": " + song;
+// Another way to concatenate:
+let name;
+name = 'Aditya ';
+name += 'Singh';console.log(name);
+
+STRING METHODS
+const learning = 'Learning in WORLDPAY is great!';
+let output;
+// length
+output = learning.length ;
+// concatoutput = learning.concat(" ", " and WORLDPAY headquarter is in London UK");// uppercaseoutput = learning.toUpperCase();// lowercaseoutput = learning.toLowerCase();// indexOf // indexof -1 doesn't existoutput = learning.indexOf('WORLDPAY');output = learning.indexOf(‘JAVA');// substring()output = learning.substring(0,10);output = learning.substring(2,10);// Substring from the endoutput = learning.substring( learning.length - 4 );// slice()// negative number will start from the endoutput = learning.slice(0,4);output = learning.slice(-3);// Splitoutput = learning.split(" ");// Another exampleconst hobbies = 'martial arts, self defence, off-roading 4*4, sketching, making algorithm';output = hobbies.split(", ");// Replace.output = learning.replace('making algorithm', 'cricket');// includesoutput = learning.includes('Indore');output = learning.includes('Python');// repeatlet greet =  "hello ";    output = greet.repeat(3);console.log(output);

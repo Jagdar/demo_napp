@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href='{% static "mystyle.css" %}'>
+    </head>
+    <body id = "mybody">
+        <div id = 'mymenu'>
+            <ul>
+                <li> Home </li>
+                <li> <a href={% url 'cprog' %}> C prog </a></li>
+                <li> <a href={% url 'java' %}>JAVA </a></li>
+                <li> <a href={% url 'python' %}>Python </a></li>
+                <li> Contact </li>
+                <li> About </li>
+
+            </ul>
+        </div>
+        <div id = "first">
+            <h1 style="color: black;">My Home page</h1> 
+            <table cellpadding='12' border="1">
+                <th>Roll No.</th>
+                    <th>Name</th>
+                    <th>Physics</th>
+                    <th>Chemistry</th>
+                    <th>Maths</th>
+                {% for i in da %}
+                <tr>
+                    
+                    <td>{{i.URNO}}</td>
+                    <td>{{i.UNAME}}</td>
+                    <td>{{i.UPHY}}</td> 
+                    <td>{{i.UCHE}}</td>
+                    <td>{{i.UMATHS}}</td>
+
+
+
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+       
+    </body>
+</html>
