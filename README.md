@@ -1,2 +1,6 @@
 # demo_napp
-Here this is file where you show all the interview questions in c ,c++,java and python .This is a basically static websites where  to show all the interview questions ans answers
+HERE THIS PROJECT IS BASICALLY A STATIC WEBSITES WHERE YOU CAN SEE ALL THE INTERVIEW QUESTIONS C ,C++,JAVA AND PYTHON BY CLICKING ON THIS BUTTON....
+YOU CAN RUN THIS PROJECT BY at first go to the path "cd first"
+THEN RUN CMD "python manage.py runserver"
+
+
